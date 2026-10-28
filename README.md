@@ -85,9 +85,18 @@ The program is evaluated against the 5 standardized benchmark sample URLs specif
 > Complete test run details, including environment specifications and verbatim console outputs, are recorded in [tests/test_samples.md](tests/test_samples.md).
 
 ## Screenshots
-Screenshots documenting the program execution and verification will be saved inside the `screenshots/` directory:
-- `screenshots/sample_run.png`: Terminal session illustrating an active run with user interaction and results.
-- `screenshots/test_results.png`: Evidence of the test verification suite covering all required test samples.
+
+### 1. Interactive Program Execution
+Demonstration of running the CLI tool, inspecting a sample URL (`http://192.0.2.10/account`), displaying detected warning signs, showing the warning count summary, and exiting cleanly:
+![Sample run](screenshots/sample_run.png)
+
+### 2. Multi-Sample Test Suite Execution
+Demonstration of executing the benchmark URLs sequentially inside an interactive terminal session:
+![Test results](screenshots/test_results.png)
+
+### 3. Test Evidence Table in IDE (VS Code)
+Verification evidence showing the full 14-test verification table in `tests/test_samples.md` opened inside the editor:
+![Test evidence in VS Code](screenshots/test_samples_editor.png)
 
 ## Improvements
 
